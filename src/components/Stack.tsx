@@ -1,12 +1,11 @@
-import { stackColumns } from '../data'
+import { stackColumns } from "../data";
 
 export default function Stack() {
   return (
     <section id="stack">
       <div className="wrap">
         <div className="section-head">
-          <h2>Full stack engineer</h2>
-          <span className="section-num mono">01 — Stack</span>
+          <h2> TECHNICAL STACK </h2>
         </div>
       </div>
       <div className="wrap">
@@ -24,5 +23,5 @@ export default function Stack() {
         </div>
       </div>
     </section>
-  )
+  );
 }

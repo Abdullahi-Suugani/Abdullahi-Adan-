@@ -1,4 +1,4 @@
-import { experience } from '../data'
+import { experience } from "../data";
 
 export default function Experience() {
   return (
@@ -6,7 +6,6 @@ export default function Experience() {
       <div className="wrap">
         <div className="section-head">
           <h2>Experience</h2>
-          <span className="section-num mono">02 — Experience</span>
         </div>
         <div className="timeline">
           {experience.map((item) => (
@@ -22,5 +21,5 @@ export default function Experience() {
         </div>
       </div>
     </section>
-  )
+  );
 }
