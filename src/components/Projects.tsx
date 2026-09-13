@@ -7,7 +7,6 @@ export default function Projects() {
         <div className="section-head">
           <h2>Projects</h2>
         </div>
-
         <div className="project-feature">
           <span className="tag mono">{featuredProject.tag}</span>
           <h3>{featuredProject.name}</h3>
@@ -35,16 +34,15 @@ export default function Projects() {
             </a>
           )}
         </div>
-
         <div className="project-row">
-          {/* {otherProjects.map((project, i) => (
-            <div className="project-card" key={i}>
+          {/* {/* {otherProjects.map((project, i) => (
+            // <div className="project-card" key={i}>
               <span className="tag mono">{project.tag}</span>
               <h4>{project.name}</h4>
               <p>{project.description}</p>
             </div>
           ))} */}
-        </div>
+        </div>{" "}
       </div>
     </section>
   );

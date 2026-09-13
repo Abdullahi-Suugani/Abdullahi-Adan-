@@ -73,28 +73,24 @@ export const featuredProject: ProjectItem = {
   tag: "Completed",
   name: "CiviFix AI",
   description:
-    "CivicFix AI is a full-stack community problem reporting platform that connects citizens with local authorities to make reporting and resolving public infrastructure issues easier. Citizens can submit reports with descriptions, images, categories, locations, and priorities, then track the progress of their reports through different status stages.\n\nThe platform includes secure authentication, role-based access control, interactive maps, report management, comments, notifications, search and filtering, and an administrative dashboard with analytics. It is designed to help authorities organize community reports, identify problem areas, monitor resolution progress, and make better decisions using data.",
+    "CivicFix AI is a full-stack platform that helps citizens report and track community problems. It connects citizens with local authorities through reports, images, locations, interactive maps, notifications, and an analytics dashboard.",
   techStack:
-    "React.js · Tailwind CSS · Node.js · Express.js · Prisma · PostgreSQL · Leaflet · OpenStreetMap · Recharts · JWT · bcrypt",
+    "React.js · Tailwind CSS · Node.js · Express.js · Prisma · PostgreSQL ",
   aiFeatures:
     "AI-assisted report writing, report analysis, responsible department recommendations, natural-language report search, and intelligent civic issue management.",
   githubUrl: "https://civic-fix-ai-five.vercel.app/",
 };
 
-// export const otherProjects: ProjectItem[] = [
-//   {
-//     tag: "Project",
-//     name: "Another project",
-//     description:
-//       "Add a short description of what this project does and what you used to build it.",
-//   },
-//   {
-//     tag: "Project",
-//     name: "Another project",
-//     description:
-//       "Add a short description of what this project does and what you used to build it.",
-//   },
-// ];
+export const otherProjects: ProjectItem[] = [
+  {
+    tag: "In Development",
+    name: "Electronic Sales and Purchases Recording System",
+    description:
+      "Electronic Sales and Purchases Recording System is a full-stack web application designed to replace paper-based sales records with a centralized digital system. It allows employees to record sales transactions quickly, while giving administrators complete visibility into business transactions and sales performance. The system supports multiple employees and an administrator. Employees can create and view their transactions, while the administrator can manage transactions, employees, searches, reports, and system settings.  Key features include transaction recording, automatic quantity and price calculations, automatic date and time tracking, transaction history, search and filtering, employee-based sales reports, daily/weekly/monthly sales analytics, and print/PDF-ready transaction records.",
+    techStack:
+      "The system uses React.js, Node.js, Express.js, TypeScript, Prisma, and PostgreSQL, with JWT authentication and role-based access control.",
+  },
+];
 
 export const educationStats: EducationStat[] = [
   { label: "Current level", value: "Year 3" },
